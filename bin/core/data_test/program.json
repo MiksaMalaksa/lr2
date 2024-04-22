@@ -1,0 +1,83 @@
+{
+    "habits": [
+        {
+            "weekday": 1,
+            "habits": [
+                {
+                    "id": "1",
+                    "habitType": "notes",
+                    "remainder": null,
+                    "name": "e",
+                    "description": "Ok",
+                    "isCompleted": false,
+                    "highestStreak": 456,
+                    "currentStreak": 3,
+                    "waterTarget": null,
+                    "waterConsumed": null,
+                    "stepsTarget": null,
+                    "stepsProduced": null,
+                    "taskSteps": null,
+                    "completedSteps": null
+                },
+                {
+                    "id": "1",
+                    "habitType": "notes",
+                    "remainder": null,
+                    "name": "e",
+                    "description": "Ok",
+                    "isCompleted": false,
+                    "highestStreak": 456,
+                    "currentStreak": 3,
+                    "waterTarget": null,
+                    "waterConsumed": null,
+                    "stepsTarget": null,
+                    "stepsProduced": null,
+                    "taskSteps": null,
+                    "completedSteps": null
+                }
+            ]
+        },
+        {
+            "weekday": 1,
+            "habits": [
+                {
+                    "id": "1",
+                    "habitType": "notes",
+                    "remainder": null,
+                    "name": "e",
+                    "description": "Ok",
+                    "isCompleted": false,
+                    "highestStreak": 456,
+                    "currentStreak": 3,
+                    "waterTarget": null,
+                    "waterConsumed": null,
+                    "stepsTarget": null,
+                    "stepsProduced": null,
+                    "taskSteps": null,
+                    "completedSteps": null
+                },
+                {
+                    "id": "1",
+                    "habitType": "notes",
+                    "remainder": null,
+                    "name": "e",
+                    "description": "Ok",
+                    "isCompleted": false,
+                    "highestStreak": 456,
+                    "currentStreak": 3,
+                    "waterTarget": null,
+                    "waterConsumed": null,
+                    "stepsTarget": null,
+                    "stepsProduced": null,
+                    "taskSteps": null,
+                    "completedSteps": null
+                }
+            ]
+        }
+    ],
+    "name": "Be",
+    "description": "Be something",
+    "muatable": true,
+    "programStart": "21/10/2021",
+    "programEnd": "28/10/2021"
+}

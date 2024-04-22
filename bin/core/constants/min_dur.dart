@@ -1,0 +1,1 @@
+const minProgramDuration = 7;
