@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 
-import '../../../../core/errors/failures/failure.dart';
-import '../../../../core/usecase/usecase.dart';
+import 'package:habita_on_discount/core/errors/failures/failure.dart';
+import 'package:habita_on_discount/core/usecase/usecase.dart';
 import '../repositories/ihabit_repo.dart';
 
 

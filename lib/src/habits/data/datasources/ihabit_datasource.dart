@@ -1,10 +1,12 @@
-import '../../../../core/enums/types.dart';
+import 'package:habita_on_discount/core/enums/types.dart';
+
 import '../../domain/entities/habit_program.dart';
 
 abstract interface class IHabitDataSource {
   Future<String> getHabitProgram({required String path});
 
-  Future<void> createHabitProgram({required HabitProgram program, required String path});
+  Future<void> createHabitProgram(
+      {required HabitProgram program, required String path});
 
   Future<void> deleteHabitProgram({required String path});
 

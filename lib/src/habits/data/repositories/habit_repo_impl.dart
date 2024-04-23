@@ -1,7 +1,8 @@
 import 'package:dartz/dartz.dart';
+import 'package:habita_on_discount/core/enums/types.dart';
+import 'package:habita_on_discount/core/errors/failures/failure.dart';
 
-import '../../../../core/enums/types.dart';
-import '../../../../core/errors/failures/failure.dart';
+
 import '../../domain/entities/habit_program.dart';
 import '../../domain/repositories/ihabit_repo.dart';
 import '../datasources/ihabit_datasource.dart';

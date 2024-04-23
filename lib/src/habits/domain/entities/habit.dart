@@ -1,5 +1,4 @@
-
-import '../../../../core/enums/types.dart';
+import 'package:habita_on_discount/core/enums/types.dart';
 
 class Habit {
   final String id;

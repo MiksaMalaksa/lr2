@@ -1,7 +1,8 @@
 
 import 'dart:io';
 
-import '../../../../core/enums/types.dart';
+import 'package:habita_on_discount/core/enums/types.dart';
+
 import '../../domain/entities/habit_program.dart';
 import '../models/habit_program_model.dart';
 import 'ihabit_datasource.dart';

@@ -1,6 +1,6 @@
+import 'package:habita_on_discount/core/constants/min_dur.dart';
 import 'package:intl/intl.dart';
 
-import '../../../../core/constants/min_dur.dart';
 import 'habit_day.dart';
 
 class HabitProgram {

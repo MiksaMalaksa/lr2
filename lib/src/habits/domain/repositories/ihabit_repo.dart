@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
-import '../../../../core/enums/types.dart';
-import '../../../../core/errors/failures/failure.dart';
+import 'package:habita_on_discount/core/enums/types.dart';
+import 'package:habita_on_discount/core/errors/failures/failure.dart';
 import '../entities/habit_program.dart';
 
 abstract interface class IHabitRepo {
