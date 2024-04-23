@@ -1,9 +1,9 @@
 
-import 'init_dependencies.dart';
-import 'src/habits/data/models/habit_program_model.dart';
+import '../lib/init_dependencies.dart';
+import '../lib/src/habits/data/models/habit_program_model.dart';
 
 
-import 'src/habits/domain/usecases/get_program_usecase.dart';
+import '../lib/src/habits/domain/usecases/get_program_usecase.dart';
 
 Future<void> main() async {
   await initialise();
