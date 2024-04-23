@@ -1,9 +1,8 @@
 
-import '../lib/init_dependencies.dart';
-import '../lib/src/habits/data/models/habit_program_model.dart';
 
-
-import '../lib/src/habits/domain/usecases/get_program_usecase.dart';
+import 'package:habita_on_discount/init_dependencies.dart';
+import 'package:habita_on_discount/src/habits/data/models/habit_program_model.dart';
+import 'package:habita_on_discount/src/habits/domain/usecases/get_program_usecase.dart';
 
 Future<void> main() async {
   await initialise();

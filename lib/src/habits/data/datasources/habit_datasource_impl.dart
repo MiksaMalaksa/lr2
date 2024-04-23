@@ -60,9 +60,24 @@ class HabitDataSourceImpl implements IHabitDataSource {
     int? stepsProduced,
     int? taskSteps,
     int? completedSteps,
-  }) {
-    throw UnimplementedError();
+  }) async {
+      final file = File(path);
+   try {
+      if (await file.exists()) {
+        final contents = await file.readAsString();
+        print('Have been readed');
+        return;
+      } else {
+        print('No such');
+        return;
+      }
+    } catch (e) {
+      print('Error occured: $e');
+      rethrow;
+    }
   }
+  
+
 
   @override
   Future<String> getHabitProgram({required String path}) async {
