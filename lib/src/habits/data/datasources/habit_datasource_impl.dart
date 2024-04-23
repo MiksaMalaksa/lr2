@@ -1,6 +1,6 @@
-
 import 'dart:io';
 
+import 'package:dartz/dartz.dart';
 import 'package:habita_on_discount/core/enums/types.dart';
 
 import '../../domain/entities/habit_program.dart';
@@ -61,23 +61,8 @@ class HabitDataSourceImpl implements IHabitDataSource {
     int? taskSteps,
     int? completedSteps,
   }) async {
-      final file = File(path);
-   try {
-      if (await file.exists()) {
-        final contents = await file.readAsString();
-        print('Have been readed');
-        return;
-      } else {
-        print('No such');
-        return;
-      }
-    } catch (e) {
-      print('Error occured: $e');
-      rethrow;
-    }
+    await Future.delayed(const Duration(seconds: 4));
   }
-  
-
 
   @override
   Future<String> getHabitProgram({required String path}) async {
